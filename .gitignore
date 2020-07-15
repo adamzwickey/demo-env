@@ -3,3 +3,10 @@ keys/
 local-config/
 acme_fitness_demo/
 tkg-lab/
+tkg-extensions/
+
+#Ignore Symlinks
+tkg-extensions-mods-examples
+dns
+storage-classes
+wavefront
