@@ -1,0 +1,25 @@
+useHelm3: true
+ingress:
+  enabled: true
+  hostname: catalog.mgmt.tanzu.private.cloud.zwickey.net
+  tls: true
+  certManager: true
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-contour-cluster-issuer"
+apprepository    :
+  initialRepos:
+    - name: tac
+      url: https://charts.trials.tac.bitnami.com/demo
+    - name: argocd
+      url: https://argoproj.github.io/argo-helm
+    # - name: bitnami
+    #   url: https://charts.bitnami.com/bitnami
+featureFlags:
+  operators: false
+# authProxy:
+#   enabled: false
+#   provider: oidc 
+#   clientID: 
+#   clientSecret: 
+#   cookieSecret: 
+#   additionalFlags: "{-cookie-secure=false,-oidc-issuer-url=https://dev-104945.okta.com/oauth2/default}"

@@ -1,0 +1,13 @@
+server:
+  ingress:
+    enabled: true
+    hosts: 
+      - CHANGEME
+    tls:
+    - secretName: argocd-tls
+      hosts:
+        - CHANGEME
+    annotations:
+      cert-manager.io/cluster-issuer: "letsencrypt-contour-cluster-issuer"
+  extraArgs:
+    - --insecure
