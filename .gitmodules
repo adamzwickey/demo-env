@@ -1,7 +1,7 @@
 [submodule "acme_fitness_demo"]
 	path = acme_fitness_demo
 	url = https://github.com/vmwarecloudadvocacy/acme_fitness_demo.git
-	branch = dkalani-dev3
+	branch = 158bbe2
 [submodule "tkg-lab"]
 	path = tkg-lab
 	url = https://github.com/Pivotal-Field-Engineering/tkg-lab.git

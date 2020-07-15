@@ -5,3 +5,4 @@ ln -s tkg-lab/wavefront wavefront
 ln -s tkg-lab/elasticsearch-kibana/ elasticsearch-kibana 
 ln -s tkg-lab/harbor harbor
 ln -s tkg-lab/tmc tmc 
+ln -s tkg-lab/acme-fitness acme-fitness 

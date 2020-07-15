@@ -12,3 +12,6 @@ export TKG_LAB_SCRIPTS=tkg-lab/scripts
 
 # Workload Cluster
 ./scripts/workload.sh
+
+# Apps
+./scripts/apps.sh
