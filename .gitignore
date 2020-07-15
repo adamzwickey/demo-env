@@ -10,3 +10,5 @@ tkg-extensions-mods-examples
 dns
 storage-classes
 wavefront
+elasticsearch-kibana
+harbor
